@@ -1,0 +1,44 @@
+
+.App {
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 20px;  
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 5px;
+  font-size: 20px;
+  resize: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-right: 15px;
+  transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
