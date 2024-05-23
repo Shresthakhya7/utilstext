@@ -1,5 +1,5 @@
 {
-  "homepage": "https://shresthakhya7.github.io/Text",
+  "homepage": "https://Shresthakhya7.github.io/utilstext",
   "name": "textutils",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build https://github.com/Shresthakhya7/Text.git",
+    "deploy":"gh-pages -d build --repo https://github.com/Shresthakhya7/utilstext.git",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
